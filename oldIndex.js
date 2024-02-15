@@ -19,6 +19,7 @@ async function getEvents(){
     }
 }
 
+event.preventDefault()
 async function addEvent(event) {
     try {
         event.preventDefault()
