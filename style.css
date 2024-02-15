@@ -1,0 +1,24 @@
+body {
+    background-color: chartreuse;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 5px 5px 5px black;
+}
+
+#events {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.event {
+    background-color: white;
+    margin: 5px;
+    width: 150px;
+    font-size: .7rem;
+    padding: 1%;
+    box-shadow: 0px 5px 5px black;
+}
